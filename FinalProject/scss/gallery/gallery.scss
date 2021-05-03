@@ -1,0 +1,98 @@
+.gallery {
+  .gallery-mid-section {
+    max-width: 980px;
+    margin: 0 auto;
+    .gallery-header {
+      h5 {
+        font-size: 25px;
+        font-weight: normal;
+        font-family: Gill;
+        margin-top: 65.5px;
+      }
+      .border {
+        height: 80px;
+        width: 234px;
+        position: relative;
+        .border-bottom {
+          border-bottom: black solid 2px;
+          position: absolute;
+          width: 70%;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  .gallery-images {
+    width: 981px;
+    margin-top: -50px;
+    .gallery-three-column {
+      display: flex;
+      flex-wrap: wrap;
+      .food-event {
+        width: 489px;
+        height: 187px;
+        background-image: linear-gradient(
+            to right,
+            $overlay-yellow,
+            $overlay-yellow
+          ),
+          url(../images/gallery/1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 20px;
+      }
+      .dee-jay {
+        width: 187px;
+        height: 187px;
+        background-image: linear-gradient(to right, $overlay-red, $overlay-red),
+          url(../images/gallery/2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 20px;
+      }
+      .speech-event {
+        width: 265px;
+        height: 187px;
+        background-image: linear-gradient(
+            to right,
+            $overlay-green,
+            $overlay-green
+          ),
+          url(../images/gallery/3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+    .gallery-two-column {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      margin-bottom: 60px;
+      .foodfest {
+        width: 603px;
+        height: 306px;
+        background-image: linear-gradient(
+            to right,
+            $overlay-purple,
+            $overlay-purple
+          ),
+          url(../images/gallery/4.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 20px;
+      }
+      .interactional {
+        width: 355px;
+        height: 306px;
+        background-image: linear-gradient(
+            to right,
+            $overlay-teal,
+            $overlay-teal
+          ),
+          url(../images/gallery/5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}

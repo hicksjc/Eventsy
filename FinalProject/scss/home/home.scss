@@ -1,0 +1,131 @@
+.home {
+  max-width: 1280px;
+  height: 500px;
+  margin: 0 auto;
+
+  //   position: relative;
+  
+
+  .mid-home-section {
+    max-width: 100%;
+    height: 200px;
+
+    .home-quote {
+      //margin-left: 286px;
+
+      p {
+        width: 789px;
+        height: 90px;
+        margin: 77px auto 0 auto;
+        color: $site-yellow;
+      }
+      .quote-name {
+        width: 789px;
+        margin: 0 auto;
+        color: $site-red;
+      }
+      .quote-end {
+        width: 789px;
+        margin: 0 auto;
+        font-size: 10px;
+      }
+    }
+  }
+
+  .bottom-mid-section {
+    max-width: 1280px;
+    height: 320px;
+    margin: 0 auto;
+    background-color: $site-purple;
+    .event-list {
+      .border {
+        height: 80px;
+        width: 234px;
+        position: relative;
+        margin-bottom: 10.5px;
+        margin-left: 20px;
+        h1 {
+          color: white;
+        }
+        .border-bottom {
+          border-bottom: white solid 1.5px;
+          position: absolute;
+          width: 200%;
+          white-space: nowrap;
+          margin-top: 50px;
+        }
+      }
+      .list {
+        width: 1280px;
+        height: 124px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 34.5px;
+        margin: 0 auto;
+        li {
+          float: left;
+          text-decoration: none;
+          padding-left: 20px;
+          flex-wrap: wrap;
+          display: flex;
+          .content-home-right {
+            padding-left: 20px;
+            #content-title {
+              color: white;
+            }
+            #content-desc {
+              color: $site-red;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.home-header {
+    // position: absolute;
+    width: 1280px;
+    height: 500px;
+    margin: -60px auto 77px auto;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        $overlay-yellow,
+        $overlay-yellow
+      ),
+      url(../images/home-hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    h1 {
+      font-size: 40px;
+      align-items: center;
+      color: white;
+      align-items: center;
+      justify-content: center;
+      font-weight: normal;
+      font-family: PT Serif;
+    }
+    h6 {
+      color: $site-red;
+      font-style: italic;
+      font-size: 20px;
+      margin-bottom: 9px;
+      font-family: Gill;
+    }
+    p {
+      color: white;
+      font-style: italic;
+      font-family: Gill;
+      margin-top: 49px;
+    }
+    button {
+      width: 121.62px;
+      height: 40.04px;
+      background-color: $site-red;
+      border: none;
+      color: white;
+      margin-top: 48px;
+    }
+  }
