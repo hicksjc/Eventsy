@@ -1,0 +1,50 @@
+.about {
+  .about-header {
+    @include center(979.5px, 20px auto 0 auto);
+    height: 378.75px;
+    background-image: linear-gradient(
+        to bottom,
+        $overlay-yellow,
+        $overlay-yellow
+      ),
+      url(../../images/about.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    h3 {
+      font-weight: normal;
+      font-family: Gill;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      margin-bottom: -4px;
+    }
+    .border {
+      height: 80px;
+      width: 234px;
+      position: relative;
+      padding-top: 340px;
+      .border-bottom {
+        border-bottom: black solid 2px;
+        position: absolute;
+        width: 70%;
+        white-space: nowrap;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+.about-mid-section {
+  max-width: 979.5px;
+  margin: 52.3px auto 95px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-family: Gill;
+    font-style: italic;
+    font-size: 16px;
+    opacity: 80%;
+  }
+}
